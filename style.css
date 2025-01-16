@@ -1,0 +1,823 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+       
+        background-image: url(city-4011922_1280.jpg);
+       
+        opacity: 1;
+        background-position: center;
+        background-size: cover;
+        padding: 0 7%;   
+    }
+.about_header{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(licensed-image\ \(4\).jpeg);
+    opacity: 1;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    padding: 0 7%; 
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.432);
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+   
+    margin-left: 6%;
+    cursor: pointer;
+    text-shadow: 0 0 3px white, 0 0 5px white;
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+nav ul{
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-block;
+    margin:  10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover{
+   
+}
+.about_head h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+.about_head p{
+    padding-left: 4rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+
+.h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+}
+.header p{
+    margin-top: 2rem;
+    color: white;
+}
+.header #btn{
+    margin-top: 2rem;
+    background-color: white;
+    width: 7rem;
+    height: 2.3rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 700;
+    border:no ne;
+}
+.content1{
+    width: 100%;
+    height: 100vh;
+    
+}
+.main_heading{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main_heading h1{
+    font-size: 3rem;
+    padding: 2rem;
+}
+.main_heading p{
+    font-size: 1rem;
+}
+
+
+.gallery {
+    width: 23rem;
+    height: 25rem;
+    border-radius: 1rem ;
+    box-shadow:1px 1px 30px 5px black;
+  }
+  .imag_content1{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+.gallery:hover {
+  
+   height: 27rem;
+   width: 25rem;
+   transition: 1.5s;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 1rem ;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+.desc h1{
+    font-size: 1.5rem;
+    font-family: sans-serif;
+
+}
+.content2{
+    width: 100%;
+     height: 100vh;
+     background-image: url(thailandto-1773f21363b81fe.avif);
+     background-position: center;
+        background-size: cover;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+      
+
+}
+#box{
+    height: 25rem;
+    width: 20rem;
+    display: flex;
+    color: #060303;
+    justify-content: space-evenly;
+    padding-left: 2rem;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.content2 #logo{
+    padding-top:2rem ;
+    padding-left: 0.8rem;
+    border: 2px solid rgb(15, 12, 12);
+    box-shadow: 5px 5px 20px black;
+    height: 4rem;
+    border-radius: 5rem;
+    width: 4rem;
+}
+.content3{
+    width: 100%;
+    height: 50vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.content3 p{
+    margin: 2rem;
+}
+#logo2{
+    margin: 1rem;
+}
+.content4{
+    width: 100%;
+    height: 100vh;
+}
+.subscribe_img{
+    max-width: 100%;
+    height: 61%;
+    /* background-image: url(cyberpunk-2077-night-city-thumb.jpg); */
+    background-image: url(wp5312927.jpg);
+    background-size: cover;
+    background-position:center;
+    object-fit: contain;
+    object-position: 100% 80%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.details{
+    width: 100%;
+    height: 31%;
+    
+}
+.copyright{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(4, 3, 3);
+}
+.subscribe_img h1{
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 1rem;
+}
+.subscribe_img p{
+    color: #fff8f8f4;
+    margin: 1rem;
+}
+.subsearch{
+    border: none;
+    width: 25rem;
+    height: 2.5rem;
+   padding-left: 6rem;
+    border-radius: 2rem;
+}
+#btn{
+    width: 6rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    background-color: #fafafa;
+    border: none;
+    color: #060404;
+}
+.brand{
+    width: 22rem;
+    display: flex;
+}
+.brand p{
+    color: #060303a8;
+}
+#mainbrand{
+    width: 7rem;
+    height: 8rem;
+}
+.details{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.details h3{
+    font-weight: 800;
+    margin:0.6rem;
+}
+.details p{
+    color: rgba(0, 0, 0, 0.567);
+    margin: 0.6rem;
+}
+#icon{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+.copyright{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about_content1{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about_box{
+    width: 19rem;
+    height: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.about_content2{
+    display: flex;
+    width: 100%;
+    height: 60vh;
+}
+.left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.about_content1  p{
+    color: #060303ab;
+}
+.about_content2 p{
+    color: #060303ab;
+}
+#content2_img{
+    width: 27rem;
+    height: 22rem;
+    border-radius: 4rem 0rem 4rem 0rem;
+}
+.about_content3{
+    width: 100%;
+    height: 70vh;
+    background-image: url(mist_339182456.jpg);
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.div{
+    color: white;
+    width: 20rem;
+    height: 7rem;
+    display: flex;
+}
+.div h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);;
+}
+.div p{
+    
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);;
+}
+#about_icon{
+    font-size:3rem ;
+    padding: 2rem;
+    padding-top: 2.5rem;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);;
+}
+.about_content41{
+    width: 100%;
+    height:10vh;
+    display: flex;
+    padding-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.about_content41 h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+.about_content41 p{
+    color: #0603037c;
+}
+.about_content4{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    gap: 4rem;
+    padding: 7rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "about_left about_righttop"
+                        "about_left about_rightdown";
+}
+
+.about_left{
+    grid-area: about_left;
+    background-image: url(licensed-image\ \(5\).jpeg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about_righttop{
+    grid-area: about_righttop;
+    background-image: url(licensed-image\ \(6\).jpeg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.about_rightdown{
+    grid-area: about_rightdown;
+    background-image: url(istockphoto-466842820-612x612.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.packages_head h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+.packages_head p{
+    padding-left: 11rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+.packages_header{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(germany_Neuschwanstein_Castle_aerial.webp);
+opacity: 1;
+position: relative;
+background-position: center;
+background-size: cover;
+padding: 0 7%; 
+}
+
+.packages_content1{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+.packages_content2{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.packages_popular{
+    padding: 4rem;
+}
+.packages_box1{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+.packages_box2{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+.packages_box3{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+.packages_box4{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+.packages_box5{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+.packages_box6{
+    width: 25rem;
+    height: 26rem;
+    border-radius: 0.7rem;
+    box-shadow: 2px 2px 30px 5px rgba(33, 33, 33, 0.688) ;  
+}
+
+
+
+
+.packages_h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+.packages_p{
+    color: #0603037a;
+}
+.packages_btn{
+    width: 9rem;
+    height: 3rem;
+    color: white;
+    background-color: #060303;
+    border-radius: 2rem;
+    margin: 4rem;
+    padding: 1rem;
+}
+.packages_img1{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(licensed-image\ \(7\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_img2{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(licensed-image\ \(8\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_img3{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(Dubai-United-Arab-Emirates-Burj-Khalifa-top.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_img4{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(licensed-image\ \(9\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_img5{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(singapore-is-making-it-easier-for-tourists-to-enter-the-country.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_img6{
+    width: 100%;
+    height: 60%;
+    border-radius: 0.7rem 0.7rem 0rem 0rem;
+    background-image:url(licensed-image\ \(11\).jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.packages_content{
+    width: 100%;
+    height:40% ;
+    padding: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.package_title{
+  
+    display: flex;
+    
+    justify-content: space-between;
+}
+.packages_content p{
+    
+    font-size: 1rem;
+    color: #0603036a;
+}
+.pac_btn{
+    
+    display: flex;
+    justify-content: space-between;
+  
+}
+.package_btn{
+    width: 8.5rem;
+    height: 2rem;
+    color: white;
+    background-color: #060303;
+    border-radius: 2rem;
+    padding-top: 0.4rem;
+    padding-left: 1rem;
+    
+
+}
+.packages_content h1{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.packages_content h2{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.contact_head h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+   text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+.contact_head p{
+    padding-left: 3rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.884);
+}
+.contact_header{
+width: 100%;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: url(calm-water-in-european-city.jpg);
+opacity: 1;
+position: relative;
+background-position: center;
+background-size: cover;
+padding: 0 7%; 
+}
+.contact_content1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+   
+}
+.contact_left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 22rem;
+    height: 27rem;
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 30px 5px rgba(29, 28, 28, 0.107);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login{
+    border: none;
+    box-shadow: 2px 2px 30px 5px rgba(29, 28, 28, 0.107);
+    border-radius: 0.5rem;
+    width: 80%;
+    height: 3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1.5rem;
+    
+}
+button{
+    width: 80%;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: #060303;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.contact_right{
+    width: 50%;
+    height: 100vh; 
+    gap: 3rem;
+    padding: 7rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 1fr 1fr;
+    grid-template-areas: "contact_top contact_top"
+                            "contact_topleft contact_topright "
+                            "contact_downleft contact_downright";
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.contact_top{
+    grid-area: contact_top;
+    
+}
+.contact_topleft{
+    grid-area: contact_topleft;
+    /* background-color: #2eb379; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact_downleft{
+    grid-area: contact_downleft;
+    /* background-color: #3e2eb3; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  
+}
+.contact_topright{
+    grid-area: contact_topright;
+    /* background-color: #b39f2e; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.contact_downright{
+    grid-area: contact_downright;
+    /* background-color: #b32e92; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contact_top h1{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.contact_top p{
+    color: #06030374;
+    padding: 0.15rem;
+}
+.contact_topleft h2{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+.contact_topleft h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.contact_topright h2{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+.contact_topright h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.contact_downleft h2{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+.contact_downleft h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.contact_downright h2{
+    font-size: 1rem;
+    font-weight: 400;
+    padding-left: 1.5rem;
+}
+.contact_downright h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.ph,.mail,.location{
+    display: flex;
+}
+.search{
+    width: 15rem;
+    height: 2.5rem;
+    border: none;
+    box-shadow: 1px 1px 10px 1px rgba(246, 244, 244, 0.884);
+    background-color: white;
+    border-radius: 2rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
+}
