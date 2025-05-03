@@ -58,7 +58,7 @@ Implement backend functionality for subscriptions and contact forms.
 
 ## Demo Video
 
-[Watch the Demo Video](https://1drv.ms/v/c/f49104bd70879638/EYOvrMFsM41PuEIwBQvmZQIBpSCVRSz_qe4i6pV1bBUqsw?e=fHEErP)
+[[Watch the Demo Video](https://1drv.ms/v/c/f49104bd70879638/EYOvrMFsM41PuEIwBQvmZQIBpSCVRSz_qe4i6pV1bBUqsw?e=fHEErP)]
 
 ##📝 Credits
 ### 🙌 Thank You!
