@@ -58,6 +58,6 @@ Implement backend functionality for subscriptions and contact forms.
 
 ##📝 Credits
 ### 🙌 Thank You!
-👩‍💻 **Developed by:** alapati shanmukhi  ([shanmukhialapati](https://github.com/shanmukhialapati/travel-website/tree/mains)
+👩‍💻 **Developed by:** alapati shanmukhi  ([shanmukhialapati](https://github.com/shanmukhialapati/travel-website.git),Travel Website)
 
 
