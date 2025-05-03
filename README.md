@@ -56,6 +56,10 @@ Build out additional pages (About Us, Packages, Contact).
 
 Implement backend functionality for subscriptions and contact forms.
 
+## Demo Video
+
+[Watch the Demo Video](C:\Users\Shanmukhi\OneDrive\Desktop\Recording 2025-05-03 154251.mp4)
+
 ##📝 Credits
 ### 🙌 Thank You!
 👩‍💻 **Developed by:** alapati shanmukhi  ([shanmukhialapati](https://github.com/shanmukhialapati/travel-website.git),Travel Website)
