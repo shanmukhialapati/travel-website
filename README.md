@@ -55,6 +55,8 @@ Add JavaScript for interactive features (e.g., dynamic search, sliders).
 Build out additional pages (About Us, Packages, Contact).
 
 Implement backend functionality for subscriptions and contact forms.
+### 📸 Screenshot
+![Screenshot](https://1drv.ms/i/c/f49104bd70879638/EXObhIamJdxElfzj_6lerzIBU3vIEFrI9luAMAx-tdFoIQ?e=RZDfbe)
 
 ## Demo Video
 
