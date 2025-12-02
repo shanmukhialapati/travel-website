@@ -1,8 +1,8 @@
-#🌍 Travel & Enjoy Website
-##📄 Overview
+# 🌍 Travel & Enjoy Website
+## 📄 Overview
 Travel & Enjoy is a responsive and interactive travel website that provides users with comprehensive travel services, destination highlights, and booking features. The homepage offers an engaging layout with stunning visuals of popular destinations, service highlights, partner brands, and a subscription section for special offers.
 
-##🚀 Features
+## 🚀 Features
 -**Navigation Menu:**
 Easy access to Home, About Us, Packages, and Contact pages.
 
@@ -28,7 +28,7 @@ Allows users to subscribe for promotions and newsletters.
 
 -**Font Awesome:** Icon set integration for services and social media.
 
-##📂 File Structure
+## 📂 File Structure
 arduino
 Copy code
 /project-folder
@@ -49,7 +49,7 @@ Ensure the style.css file and images are in the correct directory.
 Open home.html in your browser to view the homepage.
 Optionally, customize the content and images to reflect your own travel brand or service.
 
-##✨ Future Improvements
+## ✨ Future Improvements
 Add JavaScript for interactive features (e.g., dynamic search, sliders).
 
 Build out additional pages (About Us, Packages, Contact).
